@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:title="@string/search"
+        android:icon="@drawable/ic_baseline_search_24"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.widget.SearchView"/>
+
+    <item
+        android:id="@+id/action_presumed_dead"
+        android:title="@string/presumed_dead"
+        app:showAsAction="never"
+        android:onClick="PresumedDeadFilter"/>
+    <item
+        android:id="@+id/action_alive"
+        android:title="@string/alive"
+        app:showAsAction="never"
+        android:onClick="AliveFilter"/>
+    <item
+        android:id="@+id/action_deceased"
+        android:title="@string/deceased"
+        app:showAsAction="never"
+        android:onClick="DeacesedFilter"/>
+
+    <item
+        android:id="@+id/action_all"
+        android:title="@string/all"
+        app:showAsAction="never"
+        android:onClick="NoFilter"/>
+</menu>

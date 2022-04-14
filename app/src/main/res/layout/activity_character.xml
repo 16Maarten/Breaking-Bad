@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CharacterActivity"
+    android:background="@color/light_blue">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/character_detail_characterName"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:padding="5dp"
+        android:textAlignment="center"/>
+
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="375dp"
+        android:id="@+id/character_detail_image"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:id="@+id/character_detail_nickname"
+        android:text="@string/nickname"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:id="@+id/character_detail_status"
+        android:text="@string/status"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:id="@+id/character_detail_birthday"
+        android:text="@string/birthday"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:id="@+id/character_detail_occupation"
+        android:text="@string/occupation"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:text="@string/appearance"
+        android:id="@+id/character_detail_appearance"/>
+
+</LinearLayout>

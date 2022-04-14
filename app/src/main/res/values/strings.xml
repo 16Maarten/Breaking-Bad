@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BreakingBad</string>
+    <string name="status">Status</string>
+    <string name="birthday">Birthday</string>
+    <string name="nickname">Nickname</string>
+    <string name="occupation">Occupation</string>
+    <string name="appearance">Appearance</string>
+    <string name="search">Search</string>
+    <string name="deceased">Deceased</string>
+    <string name="alive">Alive</string>
+    <string name="presumed_dead">Presumed Dead</string>
+    <string name="all">All</string>
+    <!-- Strings used for fragments for navigation -->
+
+
+
+</resources>

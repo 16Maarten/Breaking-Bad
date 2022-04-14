@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BreakingBad</string>
+    <string name="status" translatable="false">Status</string>
+    <string name="birthday" translatable="false">Geboortedatum</string>
+    <string name="nickname" translatable="false">Bijnaam</string>
+    <string name="occupation" translatable="false">Beroep</string>
+    <string name="appearance" translatable="false">Voorkomen</string>
+    <string name="search">Zoeken</string>
+    <string name="deceased">Overleden</string>
+    <string name="alive">Levend</string>
+    <string name="presumed_dead">Vermoedelijk dood</string>
+    <string name="all">Allemaal</string>
+</resources>
